@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Personal Customer Profile</title>
+  <style>
+    /* General Styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      max-width: 350px;
+      width: 100%;
+    }
+
+    /* Profile Card Styling */
+    .profile-card {
+      text-align: center;
+      width: 100%;
+    }
+
+    .profile-image img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 5px solid #3498db;
+    }
+
+    .profile-name {
+      font-size: 24px;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .profile-job {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .profile-details {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .profile-details p {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .profile-socials {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .profile-socials a {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .profile-socials a:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-card">
+      <div class="profile-image">
+        <img src="https://via.placeholder.com/150" alt="Customer Photo">
+      </div>
+      <h1 class="profile-name">John Doe</h1>
+      <p class="profile-job">Web Developer</p>
+      <div class="profile-details">
+        <p><strong>Email:</strong> johndoe@example.com</p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        <p><strong>Location:</strong> New York, USA</p>
+        <p><strong>Interests:</strong> Coding, Design, Photography</p>
+      </div>
+      <div class="profile-socials">
+        <a href="#" class="social-link">LinkedIn</a>
+        <a href="#" class="social-link">Twitter</a>
+        <a href="#" class="social-link">GitHub</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
